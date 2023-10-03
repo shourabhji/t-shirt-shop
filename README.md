@@ -1,27 +1,29 @@
-# React + TypeScript + Vite
+# T-Shirt Shop Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the T-Shirt Shop web app repository! This is a web application built with Vite, React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+You can preview the live site here: [T-Shirt Shop](https://t-shirt-shop-shourabhji.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+To get started with the development of this project, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone this repository to your local machine:
 
-- Configure the top-level `parserOptions` property like this:
+   ```shell
+   git clone https://github.com/shourabhji/t-shirt-shop.git
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+2. Change into the project directory:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```shell
+   cd t-shirt-shop
+
+3. Install the project dependencies:
+
+   ```shell
+      npm install
+
+4. Start the development server:
+
+  ```shell
+      npm run dev
